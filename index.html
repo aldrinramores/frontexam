@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Front Tech Exam</title>
+      <!-- TAILWIND CSS -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="/styles.css">
+   </head>
+   <body>
+      <main class="transition-all ">
+         <!-- background w overlay -->
+         <div class="background relative overflow-hidden">
+            <img src="/assets//bg.png" alt="background-image" class="w-screen h-screen object-cover z-20 ">
+            <div class="overlay absolute top-0 h-screen w-screen opacity-5 bg-white"></div>
+         </div>
+         <!-- floqast & tagline -->
+         <div class="floqast_wrapper absolute top-[18%] left-0 right-0 mx-auto max-w-7xl xl:max-w-[100%] xl:mx-1  overflow-hidden bg-opacity">
+            <div class="flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto max-w-7xl xl:w-[100%]">
+                <div class="flex gap-2 ">
+                    <img src="/assets/floqast.png" alt="floqast-logo" class="h-16 xl:h-[92px]">
+                    <p class="slight-slant text-[#424242] roboto text-lg md:text-2xl mt-auto xl:text-4xl">The</p>
+                </div>
+                <p class="slight-slant roboto_semibold text-[#8bc540] text-2xl md:text-4xl xl:text-[55px] py-0 xl:py-4">Fastest, Most Accurate</p>
+                <p class="slight-slant text-[#424242] roboto text-lg md:text-2xl xl:text-4xl">Way to Close Your Books!</p>
+            </div>
+         </div>
+         <!-- schedule-->
+         <div class="absolute top-[55%] md:top-[75%] lg:top-[78%] left-0 right-0 mx-auto max-w-7xl ">
+            <div class="mx-3 bg-white  flex flex-col md:flex-row justify-center md:justify-between md:gap-6 lg:gap-2 items-center rounded-lg drop-shadow-lg">
+                <div class="demo_wrapper w-full md:w-[50%] lg:w-[42%] xl:w-[48%] text-center text-white bg-[#8bc540] py-2 md:py-8 xl:py-10 md:px-2 rounded-lg">
+                    <p class="text-xl md:text-xl lg:text-2xl xl:text-4xl  roboto_bold ">SCHEDULE A DEMO</p>
+                    <p class="text-sm md:text-md lg:text-[16px] xl:text-[23px] roboto mt-2">Learn More About FloQast</p>
+                </div> 
+                <!-- form -->
+                <div class="form px-2 w-full">
+                    <p class="text-center text-base md:text-lg lg:text-xl xl:text-2xl roboto_bold py-2 lg:py-4 xl:py-6 px-6 text-[#7a7b7d]">Learn How FloQast Can <span class="text-[#8bc53f]">Improve Your Month-End</span></p>
+                    <form action="" class="flex flex-col md:flex-row justify-center gap-2 md:gap-1 lg:gap-0">
+                        <input type="text" class="border border-gray-300 w-60 mx-auto text-sm rounded-md px-2 md:w-36 lg:w-56 md:px-2 xl:w-62 h-8 md:h-8 lg:h-10" placeholder="First Name *" >
+                        <input type="text" class="border border-gray-300 w-60 mx-auto text-sm rounded-md px-2 md:w-36 lg:w-56 md:px-2 xl:w-62 h-8 md:h-8 lg:h-10" placeholder="Email *" >
+                        <button type="submit" class="bg-[#8bc540] text-sm lg:text-lg py-2 md:py-1 border-2 border-[#7ca24a] w-60 md:w-48 xl:w-72 mx-auto rounded-md text-white roboto_semibold mb-4">SCHEDULE NOW</button>
+                    </form>
+                </div>
+            </div>
+         </div>
+         <!-- end of schedule -->
+      </main>
+   </body>
+</html>
